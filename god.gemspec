@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
 
   s.name = 'god'
-  s.version = '0.13.7'
-  s.date = '2015-10-19'
+  s.version = '0.13.8'
+  s.date = '2016-09-26'
 
   s.summary = "Process monitoring framework."
   s.description = "An easy to configure, easy to extend monitoring framework written in Ruby."
@@ -79,6 +79,7 @@ Gem::Specification.new do |s|
     lib/god/conditions/http_response_code.rb
     lib/god/conditions/lambda.rb
     lib/god/conditions/memory_usage.rb
+    lib/god/conditions/memory_usage_with_children.rb
     lib/god/conditions/process_exits.rb
     lib/god/conditions/process_running.rb
     lib/god/conditions/socket_responding.rb
